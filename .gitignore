@@ -1,0 +1,13 @@
+# === ESP-IDF build outputs ===
+build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.log
+*.tmp
+*.pyc
+__pycache__/
+
+# === VS Code junk ===
+.vscode/
