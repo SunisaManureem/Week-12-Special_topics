@@ -18,7 +18,7 @@ static const char* TAG = "ESP_NOW_RECEIVER";
 #define MY_GROUP_ID 1  // เปลี่ยนเป็น 1 หรือ 2 ตาม Group
 
 // MAC ของ Broadcaster (ใส่ MAC จริงของ Master)
-static uint8_t broadcaster_mac[6] = {0x94, 0xB5, 0x55, 0xF8, 0x22, 0x78};
+static uint8_t broadcaster_mac[6] = {0x94, 0xB5, 0x55, 0xF4, 0x19, 0x48};
 
 // โครงสร้างข้อมูลเหมือน Broadcaster
 typedef struct {
